@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400&display=swap");
+
+#one {
+  padding: 1rem 10rem 7rem 4rem;
+  background-color: #fff0e5;
+  font-family: "Hanken Grotesk", sans-serif;
+  height: 50rem;
+}
+
+.Navlinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.Dropdown {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+}
+.Dropdown li {
+  display: flex;
+  align-items: flex-end;
+  padding-right: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.Dropdown li img {
+  width: 1rem;
+  padding-left: 0.5rem;
+  padding-bottom: 0.2rem;
+}
+
+.SearchSection {
+  display: flex;
+}
+
+#logo {
+  width: 10rem;
+  margin-bottom: -0.25rem;
+}
+
+.SearchSection {
+  width: 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.SearchSection img {
+  width: 25%;
+}
+
+.HeroSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.HeroImage {
+  width: 50%;
+}
+
+#woman {
+  max-height: 43%;
+  border: 0.1rem;
+  border-style: solid;
+  border-color: black;
+  margin-left: 5rem;
+  position: absolute;
+  z-index: 2;
+  top: 15rem;
+}
+
+#shadow {
+  width: 50vh;
+  height: 41.5vh;
+  position: absolute;
+  margin-left: 4rem;
+  overflow: hidden;
+  top: 18rem;
+  left: 4rem;
+  background-image: url("imagesSection1/shadow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#shadow img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.SignUp {
+  width: 40%;
+  margin-top: 3rem;
+  font-size: 1.3rem;
+  line-height: 3rem;
+  padding-right: 4rem;
+  padding-left: 10rem;
+}
+
+.SignUp input {
+  width: 98.8%;
+  height: 3.5rem;
+}
+
+.SignUp img {
+  width: 3%;
+  right: 0;
+}
+.FlexForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+#SignUpButton {
+  width: 100%;
+  height: 3rem;
+  margin-top: 2rem;
+  background-color: #3a10e5;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.HeroSection p {
+  margin-top: 2.3rem;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+
+.HeroSection h6 {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
+.SighUpIcons {
+  display: flex;
+  margin-top: -1.7rem;
+}
+
+.SighUpIcons img {
+  width: 30%;
+}
+
+#SighUpIcon {
+  background-color: white;
+  width: 15%;
+  height: 20%;
+  margin-right: 0.6rem;
+  padding: 1.2rem 0rem;
+}

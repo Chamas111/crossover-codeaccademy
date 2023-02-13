@@ -1,0 +1,132 @@
+#eight,
+#nine {
+    --font-family: Apercu, Roboto, Helvetia;
+}
+
+#eight {
+    background-color: #3a10e5;
+    color: #ffffff;
+}
+
+.eight_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    padding: 32px 96px;
+    height: 450px;
+    font-family: var(--font-family);
+    
+}
+
+.eight_image{
+    min-width: 200px;
+    max-width: 450px;
+}
+
+.eight_heading {
+    padding-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.eight_p {
+    min-width: 200px;
+    max-width: 400px;
+    padding-bottom: 1rem;
+}
+
+.eight_button {
+    padding: 0.5rem;
+    background-color: #ffd300;
+    color: #10162f;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border-style: none;
+}
+
+#nine {
+    background-color: #fff0e5;
+}
+
+.footer_big_grid{
+    padding: 32px 96px;
+    margin: 0px 107px;
+}
+
+.footer_grid_container {
+    display:grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    color: #10162f;
+    font-size: 16px;
+    font-family: var(--font-family);
+}
+
+
+
+.footer_heading{
+    font-weight: 600;
+    padding: 16px 0px;
+}
+
+.footer_list {
+    list-style-type: none;
+    padding:0;
+}
+
+.footer_list a {
+    text-decoration: none;
+    color: #10162f;
+}
+
+.footer_list li {
+    margin: 6px 0px;
+}
+
+.footer_list a:hover {
+   color: #3a10e5
+}
+
+.horizontalline {
+    border: 0,5px solid #10162f;
+    margin: 0px 203px;
+}
+
+.footer_social_icon {
+    width: 18px;
+    margin-top: 15px;
+}
+
+.footer_codecademy_logo {
+    width: 100px;
+}
+
+.footer_vertical_line {
+    border-right: 1px solid #10162f;
+    margin-right: 20px;
+}
+
+.footer_last_line {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-family);
+    font-size: 0.85rem;
+    padding: 20px 96px;
+    margin: 0px 107px;
+}
+
+.footer_last_line a {
+    padding-right: 5px;
+    text-decoration: none;
+    color: #10162f;
+}
+
+.footer_last_line a:hover {
+    color: #3a10e5
+}
+
+.smallheart{
+    color: rgb(183, 12, 12);
+}
